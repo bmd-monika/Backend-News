@@ -15,3 +15,7 @@ News project
   - Run this command `python manage.py migrate`
   - Run this command to start server `python manage.py runserver 0.0.0.0:8000 --settings=config.settings.local`
   - Check your browser and type this address`http://localhost:8000`
+  
+  
+  
+ You can see list of endpoint from file `Backend.postman_collection.json`
