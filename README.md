@@ -3,7 +3,13 @@
 News project
 
 # How to Start:
-  - Acitvated python virtual env with this command `$ source env/bin/activate`
+  - Create Db(mySql) with this config:
+    - `NAMEDB`: `news`,
+    - `USER`: `root`,
+    - `PASSWORD`: `monikasiahaan067`,
+    - `HOST`: `127.0.0.1`
+    - `PORT`: `3306`,
+  - Activated python virtual env with this command `$ source env/bin/activate`
   - Move to directory `backend`
   - Install dependency library for project shark with run this command `pip install -r requirements.txt`
   - Run this command `python manage.py migrate`
